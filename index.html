@@ -1,0 +1,160 @@
+﻿<html>
+<head>
+<title>Future VS Man</title>
+<script src="jquery.js"></script>
+<script src="jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="jquery-ui.min.css">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<!--
+<script>
+var counttovar=0
+var idtovar=""
+$("document").ready(function(){
+	$( "#dialog1" ).dialog({
+		width:600,
+      autoOpen: false,
+      show: {
+        effect: "fade",
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 500
+      }
+    });
+	
+	$( "#dialog4" ).dialog({
+		width:800,
+      autoOpen: false,
+      show: {
+        effect: "fade",
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 500
+      }
+    });
+	
+	$( "#dialog2" ).dialog({
+		width:600,
+      autoOpen: false,
+      show: {
+        effect: "fade",
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 500
+      }
+    });
+	
+	$( "#dialog3" ).dialog({
+		width:600,
+      autoOpen: false,
+      show: {
+        effect: "fade",
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 500
+      }
+    });
+ 
+    $( "#li1" ).click(function() {
+      $( "#dialog1" ).dialog( "open" );
+    });
+	
+	$( "#li2" ).click(function() {
+      $( "#dialog2" ).dialog( "open" );
+    });
+	
+	$( "#li3" ).click(function() {
+      $( "#dialog3" ).dialog( "open" );
+    });
+	
+	$("#img1").hover(function(){
+		$(this).animate({'width':60,'height':60},300)
+	},function(){
+		$(this).animate({'width':40,'height':40},300)
+	})
+			
+	$('#divs div').click(function(){
+		if($(this).attr('title')=='')
+	{
+		$(this).removeClass('rect').addClass('rect2').attr('title','ok')
+}
+	else
+		{$(this).removeClass('rect2').addClass('rect').attr('title','')
+	}
+	counttovar=0
+	idtovar=""
+	$(".rect2").each(function(){
+		counttovar++
+		idtovar=idtovar+$(this).attr("id")+";"
+	})
+	$("#count").text(counttovar)
+	})
+	
+	
+	$('img').click(function(){
+	$('#dialog4').dialog('open')	
+		$.ajax({
+			url:"showtovar.php",
+			type:"POST",
+			data:({id:idtovar}),
+			success:function(data){
+				$("#dialog4").html(data)
+				
+				
+			}
+		})
+	
+	})
+	
+})
+</script>-->
+<table width="70%" align="center" border="0" background="">
+<tr>
+<td rowspan="2" width="25%" ><img src=""></td>
+
+<td width="25%" align="center" class="NAME"><b><i><u>Future VS Man</u></i></b></td>
+<td  rowspan="2" colspan="2" width="50%">
+<p style="margin: 5px 20px 5px 20px;">Hello.If you got on this site it is means that you are interested in something with this information .I hope what help you or was interesting . Thank you review my site .</p>
+</ul>
+</td>
+</tr>
+<tr>
+<td width="200" style="opacity: 0;">fhhgfdgj<br>gfdg<br>gfd</td>
+
+<!--<td width="150">Вибрано товарів:<span id="count">0</span></td>
+<td width="70" height="70" align="center"><img src="https://etnoart-shop.ru/local/templates/eshop_bootstrap_white/images/basket.png" width="40" height="40" id="img1"></td>-->
+
+</tr>
+<tr>
+<td colspan="5"><hr width="100%" color="" size="3"></td>
+</tr>
+<tr align="center">
+<td colspan="2"><img src="start-your-blog.png" style="margin: 5px 20px 5px 5px;" align="left" height="175" width="260"><p style="margin: 3px 20px 0px 13px;" align="left">Information will is soon fill<a href="blog.html" class="action" id="a123">continuation</a></p></td>
+<td colspan="2"><img src="http://www.qygjxz.com/data/out/122/5767664-imagens-de-games.png" style="margin: 5px 20px 5px 5px;"  align="left" height="175" width="260"><p style="margin: 3px 20px 0px 13px;" align="left">This article about games. Here you can find out bugs, cheats , interesting information and altho. Sometimes here will be tops.Here you can read and soon watching on such games as GTA 1-5, Minecraft, Tanki online, World of ship and<a  href="games.html" class="action">continuation</a></p></td>
+</tr>
+<tr>
+<td colspan="2"><img src="http://www.cfore.ca/wp-content/uploads/2015/10/Music-Production.jpg" style="margin: 5px 20px 5px 5px;"  align="left" height="175" width="260"><p style="margin: 3px 20px 0px 13px;" align="left">This article about music. Here you can find out biography, interesting facts ,video clips, much different music and altho. Sometimes here will be tops.<a>continuation</a></p></td>
+<td colspan="2"><img src="http://hi-news.pp.ua/uploads/posts/2017-09/nternet-magazin-online-shop-vdguki_375.jpeg" style="margin: 5px 20px 5px 5px;"  align="left" width="260" height="175"><p style="margin: 3px 20px 0px 13px;" align="left">Information will is soon fill<a>continuation</a></p></td>
+</tr>
+<tr>
+<td colspan="2"><img src="http://www.easysite.com/sitedata/easysitenews/EditorItem_18612_5_4873.jpg" style="margin: 5px 20px 5px 5px;"  align="left" width="260" height="175"><p style="margin: 3px 20px 0px 13px;" align="left">This article about create site. Here you can find out about html, css ,java, much different altho.<a>continuation</a></p></td>
+
+</tr>
+</table>
+<table width="60%" align="center" border="1" id="table2">
+<?include "showtable.php";?>
+</table>
+
+<div id='dialog4' title='Замовлення' style='display:none;'><?include "showtovar.php"?></div>
+
+</body>
+</html>

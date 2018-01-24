@@ -69,9 +69,159 @@
 	letter-spacing:3px; 
 	font-size:7pt; 
 }
-.text_music details:hover
+.text_music:hover
+{
+   color:#cc0000;
+}
+.text_music1 
+{
+	display:block;
+	border:1px outset black;
+	height:65%; 
+	width:30%; 
+	padding-top:12px; 
+	margin:0px 18px 18px 0px; 
+	float:left;
+	
+	text-align:center; 
+	text-decoration:none;  
+	letter-spacing:3px; 
+	font-size:7pt; 
+}
+.text_music1:hover
+{
+   color:#cc0000;
+}
+.book 
+{
+   display:block; 
+   background:; 
+   border:1px outset black;
+   padding-top:12px; 
+   margin:3px 2px 4px 2px; 
+   float:left;
+   
+   text-decoration:none; 
+   color:; 
+   letter-spacing:2px; 
+   font-size:13pt; 
+   font-family:algerian;
+}
+.book :hover
 {
    color:#cc0000;
 }
 
+.menu2{
+width:15%;
+}
+.menu3{
+width:10%;
+}
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu1 > li {
+    float: left;
+    position: relative;
+}
+ul.menu1 > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+	border: 1px solid black;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 225px;
+    top: 37px;
+    left: 0;
+    background-color:#fff9f3;
+}
+ul.submenu > li {
+    display: block;
+	border: 1px solid black;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    background-color:#fff9f3;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
 
+ul.menu1 > li:hover > ul.submenu {
+    display: block;
+}
+
+.menu4{
+width:13%;
+}
+.menu5{
+width:9%;
+}
+ul.submenu1 {
+    display: none;
+    position: absolute;
+    width: 197px;
+    top: 37px;
+    left: 0;
+    background-color:#faf105;
+}
+ul.submenu1 > li {
+    display: block;
+	border: 1px solid black;
+}
+ul.submenu1 > li > a {
+    display: block;
+    padding: 10px;
+    background-color:#faf105;
+	color:white;
+    text-decoration: none;
+}
+ul.submenu1 > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.menu1 > li:hover > ul.submenu1 {
+    display: block;
+}
+
+.menu7
+{
+	font-family:algerian;
+	border: 1px solid black;
+}
+.menu6 a
+{
+   display:block; 
+   background:#faf105;  
+   
+   text-align:center; 
+   text-decoration:none; 
+   color:white; 
+   letter-spacing:3px; 
+   font-size:13pt; 
+}
+.menu6 dl
+{
+   display:block; 
+   background:#faf105;  
+   border: 1px solid black;
+   text-decoration:none; 
+   color:white; 
+   letter-spacing:3px; 
+   font-size:13pt; 
+}
